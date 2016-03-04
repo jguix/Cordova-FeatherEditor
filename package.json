@@ -1,0 +1,23 @@
+{
+    "version": "0.1",
+    "name": "cordova-plugin-feather-editor",
+    "cordova_name": "FeatherEditor",
+    "description": "A Cordova plugin providing access to the Feather Editor from Creative SDK",
+    "license": "Apache 2.0",
+    "repo": "",
+    "issue": "",
+    "keywords": [
+        "cordova",
+        "image",
+        "feather",
+        "editor",
+        "aviary",
+        "creative",
+        "sdk"
+    ],
+    "platforms": [
+        "android",
+    ],
+    "engines": [],
+    "englishdoc": ""
+}
