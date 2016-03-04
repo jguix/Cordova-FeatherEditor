@@ -10,8 +10,8 @@ import com.aviary.android.feather.sdk.IAviaryClientCredentials;
  */
 public class FeatherApplication extends Application implements IAviaryClientCredentials {
 
-    private static final String CREATIVE_SDK_CLIENT_ID = "0b1b539edf4742a984abd3291b264a53";
-    private static final String CREATIVE_SDK_CLIENT_SECRET = "90c70c9d-4af6-490f-8aff-d88f1ff90c82";
+    private static final String CREATIVE_SDK_CLIENT_ID = "YOUR_CLIENT_ID";
+    private static final String CREATIVE_SDK_CLIENT_SECRET = "YOUR_CLIENT_SECRET";
 
     @Override
     public String getBillingKey() {
