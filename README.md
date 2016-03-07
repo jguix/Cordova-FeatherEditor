@@ -31,7 +31,7 @@ Remove the following property to the <manifest> tag
  
     android:smallScreens="true"
 
-Add the following property to the <Application> tag
+Check that the following property is set in the <Application> tag
 
     android:name="com.jguix.cordova.FeatherApplication" 
 
