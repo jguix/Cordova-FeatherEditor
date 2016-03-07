@@ -27,7 +27,7 @@ Add your keys to the plugin file src/android/FeatherApplication.java
 
 ### AndroidManifest.xml
 
-Remove the following property to the <manifest> tag
+Remove the following property to the < manifest > tag
  
     android:smallScreens="true"
 
@@ -35,7 +35,7 @@ Check that the following property is set in the <Application> tag
 
     android:name="com.jguix.cordova.FeatherApplication" 
 
-Add a provider inside the <Application> tag
+Add a provider inside the < Application > tag
 
     <provider
             android:name="com.aviary.android.feather.sdk.internal.cds.AviaryCdsProvider"
