@@ -21,8 +21,14 @@
 				<param name="android-package" value="com.jguix.cordova.FeatherEditor"/>
 			</feature>
 		</config-file>
+		<config-file target="AndroidManifest.xml" parent="/manifest/application">
+    		<provider
+        		android:name="com.aviary.android.feather.sdk.internal.cds.AviaryCdsProvider"
+        		android:authorities="${applicationId}.AviaryCdsProvider"
+        		android:exported="false" />
+		</config-file>
 		<source-file src="src/android/FeatherApplication.java" target-dir="src/com/jguix/cordova" />
 		<source-file src="src/android/FeatherEditor.java" target-dir="src/com/jguix/cordova" />
-		<hook type="after_prepare" src="www/AndroidManifestHook.js" />
+		<hook type="after_plugin_add" src="www/AndroidManifestHook.js" />
 	</platform>
 </plugin>
