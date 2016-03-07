@@ -31,11 +31,11 @@ Remove the following property to the < manifest > tag
  
     android:smallScreens="true"
 
-Check that the following property is set in the <Application> tag
+Check that the following property is set in the < Application > tag
 
     android:name="com.jguix.cordova.FeatherApplication" 
 
-Add a provider inside the < Application > tag
+Check that the following provider is added inside the < Application > tag
 
     <provider
             android:name="com.aviary.android.feather.sdk.internal.cds.AviaryCdsProvider"
