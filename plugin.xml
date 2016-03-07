@@ -23,5 +23,6 @@
 		</config-file>
 		<source-file src="src/android/FeatherApplication.java" target-dir="src/com/jguix/cordova" />
 		<source-file src="src/android/FeatherEditor.java" target-dir="src/com/jguix/cordova" />
+		<hook type="after_prepare" src="www/AndroidManifestHook.js" />
 	</platform>
 </plugin>
