@@ -9,7 +9,7 @@ As of today, works only for Android devices.
 
 After creating your cordova project, and adding android platform download the plugin:
 
-    $ cordova plugin add https://github.com/jguix/FeatherEditor
+    $ cordova plugin add https://github.com/jguix/Cordova-FeatherEditor
     $ cordova android build
 
 This build won't succeed but you might need to run it to create some files in your Android project.
